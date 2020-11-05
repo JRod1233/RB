@@ -1,46 +1,102 @@
-## Homework File: Cloud Security
+## Homework: GitHub Fundamentals
 
 ### Background
 
-- During the last week, you created a highly available web server for XCorp's Red Team to use for testing and training.
+To understand GitHub, you need to know the basics of **version control**.
 
-- Your lead cloud administrator has asked for a diagram of the Network you created to keep for documentation and company records.
+- Version control is a system that allows users to save all versions of a file while working on it. It's like adding an undo function to any document or file. You create save points as you work, which you can revert to at any time.
 
-- Your task: Use [draw.io](https://app.diagrams.net/) to create a detailed diagram of your cloud infrastructure.
+- **Git** is the most popular software used for version control. It runs on your local computer and allows you create save points (known as **commits**) for your documents. 
 
-### Cloud Recap
+- You can use Git to manage any directory and track every item inside that directory. At any point, you can revert the Git directory (known as a **repository**) to a previous commit. 
 
-When you're finished completing all the activities in cloud week, you should have:
-- A total of 3 VMs running DVWA.
+GitHub is a website that allows you to sync your local Git repository with a repository in the cloud. This allows you to save your work to the cloud, share your work with others, and easily collaborate on a project. 
 
-- All 3 VMs receiving traffic from your load balancer.
+- Other users can access your online GitHub repository and sync their own changes. They can also make a copy of your repository to create an entirely new project based on your original project. This is known as **forking**.
 
-If you did not setup the 3rd (optional) VM, you should have:
-- A total of 2 VMs running DVWA
+In this activity, you will:
+- Create a new, empty Github repository and sync it to your local machine. 
 
-- Both VMs receiving traffic from your load balancer.
+- Once your repository is up, you will add all of your Ansible scripts, Bash scripts, and network diagrams to the repository, and sync it again with the cloud. 
 
-You can complete this homework with either 2 or 3 VMs.
+- When everything is synced, you will update the GitHub README file, which will explain each of the items in the repo, and display a network diagram. You will then have a GitHub repository to present to future employers. 
 
-### Your Goal
+You will also use your GitHub account for other activities in the course.
 
-When you are finished with this assignment, you should have a network diagram that shows your entire cloud setup, including your Ansible jump box and the Docker containers running on each VM.
+### Required Files 
 
-This document can be used as part of a portfolio to demonstrate your ability.
+- Ansible YAML scripts from the week on cloud security.
+    - Gather all of your Ansible YAML scripts from your Ansible container on your jump box.
+    - Copy and paste these into new documents on your local machine.
+- Bash scripts from the week on Linux.
+    - Gather all of your system configuration scripts you created during the weeks on Linux.
+- Network diagrams.
+    - Gather all of the network diagrams you created during the weeks on cloud security and networking. 
 
-### Instructions
+### Your Goals
 
-Use a free account at [draw.io](https://app.diagrams.net/) to diagram the entire cloud network you have created.
+1. Create a GitHub repository for all of your files. 
 
-    - Your diagram should show the following:
-        - Azure resource group
-        - Virtual network with IP address range
-        - Subnet range
-        - Flow of specific traffic (e.g., HTTP, SSH)
-        - Security group blocking traffic
-        - Load balancer
-        - All 4 VMs that you have launched
-        - Where Docker and Ansible are deployed
+2. Copy all of your files into the repository and create a README explaining the repository.
+
+### Topics Covered in this Assignment
+The topics covered in this homework assignment are:
+
+- Creating a new GitHub repository.
+- Syncing a local repository.
+- Creating a README file.
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- The following commands:
+    - `git pull`
+    - `git add`
+    - `git commit -m`
+    - `git push origin --set-upstream <-branch->`
 
 ---
+
+### Instructions
+1. Create your GitHub repository.
+    - Go to [github.com](https://github.com/) and sign up for GitHub.
+    - Confirm your email address.
+    - Click **Create a Repository**.
+    - Name your repository and give it a short description.
+    - Check the box for **Initialize this repository with a README**.
+    - Click **Create Repository**. 
+
+2. Download your repository. 
+
+    - Click the green **Clone or Download** button on the right side.
+    - Copy the link.
+    - Go to your command line and run the command: `git clone https://github.com/your-username/yourlink.git`
+        - Enter your GitHub username and password to complete the download.
+
+3. Once you have the repository downloaded, copy your scripts and diagrams into it. 
+    - Create folders for `Linux`, `Ansible` and `Diagrams`.
+    - Copy your scripts and diagrams to the appropriate folder.
+
+4. Sync your local and remote repositories. 
+    - In your terminal, make sure you're located in the top directory of your repo.  
+
+    - Run `git add .` to specify that you want to sync _all_ the items and directories that you just added to your repo. This command stages your files for a commit. 
+
+    - Run the command `git commit -m "First commit"` to confirm the commit and add a note describing it ("First commit").  
+
+     - Run `git push` to finalize the sync.
+
+    - Go to github.com and confirm your content is there.
+
+5. Add the README file you created during Day 3 of the project week.
+    - Click on the `README.md` file in your GitHub repo.
+    - Click on the small pencil that reads **Edit this file** on hover.
+    - Copy and paste the `README.md` file you wrote during class. 
+    - Make any desired changes and click **Commit Changes** at the bottom of the screen.
+
+     **Note:** READMEs are written in Markdown. This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has more information about writing in Markdown. 
+     
+Check your repo for any errors or typos. You now have a GitHub repository that is ready to present and share with the world. 
+    
+--- 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+
