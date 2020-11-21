@@ -162,11 +162,11 @@ Alternative mitigation strategies include:
 
 ### 03. Client-Side JavaScript Validation Bypass 
 
-- [Activity File: JavaScript Validation Bypass](Activities/03_Validation_Bypass/Unsolved/Readme.md)
+- [Activity File: JavaScript Validation Bypass](Activities/03_Validation_Bypass/Unsolved/README.md)
 
 ### 04.  Review Client-Side JavaScript Validation Bypass Activity
 
-- [Solution Guide: JavaScript Validation Bypass](Activities/03_Validation_Bypass/Solved/Readme.md)
+- [Solution Guide: JavaScript Validation Bypass](Activities/03_Validation_Bypass/Solved/README.md)
 
 ### 05. Instructor Do: Broken Authentication and Session Management 
 
