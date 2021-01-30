@@ -8,7 +8,7 @@ Yesterday, your team confirmed that newly created alerts are working. Today, you
 
 You are to report back all your findings to both the SOC manager and the Engineering Manager with appropriate analysis.
 
-Fill out the [Network Report Template](Resources/NetworkTemplate.md) as you progress through this activity.
+Fill out the [Network Report Template](24-Final-Project/Resources/NetworkTemplate.md) as you progress through this activity.
 
 ### Setup
 

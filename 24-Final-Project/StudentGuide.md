@@ -22,9 +22,9 @@ This week, you will work on your final project by completing the following tasks
 - **Group Presentation**: Once the alerting, attacking and forensics portions are complete, you will work in groups of three to six to develop presentations for the final day of class. 
 
 In addition to the above, you will be assigned to a group by your instructor on Day 1. While you will complete each step of the project on your own, you will choose one of the following report templates to fill out together:
-- [Defensive Report Template](Resources/DefensiveTemplate.md)
-- [Offensive Report Template](Resources/OffensiveTemplate.md)
-- [Network Report Template](Resources/NetworkTemplate.md)
+- [Defensive Report Template](24-Final-Project/Resources/DefensiveTemplate.md)
+- [Offensive Report Template](24-Final-Project/Resources/OffensiveTemplate.md)
+- [Network Report Template](24-Final-Project/Resources/NetworkTemplate.md)
 
 You will fill out only _one_ of these templates. Your presentation will be based on the template that you choose.
 
